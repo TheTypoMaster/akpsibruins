@@ -1,0 +1,31 @@
+[30-Sep-2012 02:34:58] PHP Fatal error:  Class 'Walker' not found in /home/uclaakps/public_html/blog/wp-includes/nav-menu-template.php on line 17
+[30-Sep-2012 02:35:02] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/author-template.php on line 394
+[30-Sep-2012 02:35:04] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/local/php52/pear') in /home/uclaakps/public_html/blog/wp-includes/script-loader.php on line 25
+[30-Sep-2012 02:35:11] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/uclaakps/public_html/blog/wp-includes/feed-rdf.php on line 8
+[30-Sep-2012 02:35:36] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/general-template.php on line 1283
+[30-Sep-2012 02:35:49] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/uclaakps/public_html/blog/wp-includes/feed-atom.php on line 8
+[30-Sep-2012 02:35:52] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/uclaakps/public_html/blog/wp-includes/feed-rss2.php on line 8
+[30-Sep-2012 02:36:03] PHP Fatal error:  Class 'WP_Widget' not found in /home/uclaakps/public_html/blog/wp-includes/default-widgets.php on line 14
+[30-Sep-2012 02:36:07] PHP Fatal error:  Call to undefined function  add_filter() in /home/uclaakps/public_html/blog/wp-includes/default-filters.php on line 17
+[30-Sep-2012 02:36:59] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php52/pear') in /home/uclaakps/public_html/blog/wp-includes/functions.php on line 8
+[30-Sep-2012 02:37:01] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/kses.php on line 1430
+[30-Sep-2012 02:37:05] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/theme.php on line 570
+[30-Sep-2012 02:37:12] PHP Fatal error:  Call to undefined function  is_admin() in /home/uclaakps/public_html/blog/wp-includes/vars.php on line 20
+[30-Sep-2012 02:37:17] PHP Fatal error:  Call to undefined function  add_filter() in /home/uclaakps/public_html/blog/wp-includes/shortcodes.php on line 334
+[30-Sep-2012 02:37:19] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/canonical.php on line 504
+[30-Sep-2012 02:37:27] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/taxonomy.php on line 113
+[19-Jan-2013 00:25:25] PHP Fatal error:  Class 'Walker' not found in /home/uclaakps/public_html/blog/wp-includes/nav-menu-template.php on line 17
+[19-Jan-2013 00:25:32] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/author-template.php on line 394
+[19-Jan-2013 00:26:17] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/general-template.php on line 1283
+[19-Jan-2013 00:26:46] PHP Fatal error:  Class 'WP_Widget' not found in /home/uclaakps/public_html/blog/wp-includes/default-widgets.php on line 14
+[19-Jan-2013 00:26:52] PHP Fatal error:  Call to undefined function  add_filter() in /home/uclaakps/public_html/blog/wp-includes/default-filters.php on line 17
+[19-Jan-2013 00:26:59] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/local/php52/pear') in /home/uclaakps/public_html/blog/wp-includes/functions.php on line 8
+[19-Jan-2013 00:27:03] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/kses.php on line 1430
+[19-Jan-2013 00:27:08] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/theme.php on line 570
+[19-Jan-2013 00:27:10] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/uclaakps/public_html/blog/wp-includes/feed-rdf.php on line 8
+[19-Jan-2013 00:27:14] PHP Fatal error:  Call to undefined function  is_admin() in /home/uclaakps/public_html/blog/wp-includes/vars.php on line 20
+[19-Jan-2013 00:27:18] PHP Fatal error:  Call to undefined function  add_filter() in /home/uclaakps/public_html/blog/wp-includes/shortcodes.php on line 334
+[19-Jan-2013 00:27:19] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/canonical.php on line 504
+[19-Jan-2013 00:27:25] PHP Fatal error:  Call to undefined function  add_filter() in /home/uclaakps/public_html/blog/wp-includes/user.php on line 71
+[19-Jan-2013 00:27:26] PHP Fatal error:  Call to undefined function  feed_content_type() in /home/uclaakps/public_html/blog/wp-includes/feed-rss2-comments.php on line 8
+[19-Jan-2013 00:27:31] PHP Fatal error:  Call to undefined function  add_action() in /home/uclaakps/public_html/blog/wp-includes/taxonomy.php on line 113

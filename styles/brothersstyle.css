@@ -1,0 +1,171 @@
+html{
+	height:1000px;
+	min-width: 45em;
+}
+body{
+	height:1000px;
+	background-image: none;
+	background-color: rgb(238,239,241);
+}
+#akpsi{
+	height:190px;
+	margin-top:0px;
+	margin-bottom:32px;
+	padding-bottom:0;
+	background-color:rgb(238,239,241);
+}	
+.titlediv{
+		background-image:url('../images/background.jpg'); 
+}
+
+.title{	
+	width:100%;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-align:center;
+	font-size:25pt;
+	}
+.inner{
+		position:absolute;
+		top:70px;
+		overflow:scroll;
+}
+
+#pledgeclass{
+	margin-left: 0px;
+
+}
+.names{
+	color:rgb(13,13,13);
+	font-weight:bold;}
+.positions{
+	color:rgb(91,92,93);
+}
+
+.pledgeclass{
+	font-family: 'News Gothic MT', Arial, sans-serif; 
+	font-size: 10pt;
+	font-weight: bold;  
+
+}
+
+.brotherstable{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing: 20px;
+	margin-top:20px;
+	font-family: "News Gothic MT", Arial, sans-serif;
+	font-size: 0.8em;
+	width: 80%;
+	border-spacing: 20px;
+	border-collapse:separate;
+}
+@media only screen and (min-width: 1500px){
+	.brotherstable {width: 1070px;}
+}
+
+div.darken .brotherInfo {
+	display: none;
+}
+
+#mail {
+	position: relative;
+	height: 20px;
+	margin: auto;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-top: 3px;
+	opacity: 0.5;
+}
+
+#mail:hover { opacity: 0.8; 
+		-webkit-transition: all 0.3s linear;
+	       -moz-transition: all 0.3s linear;
+	        -ms-transition: all 0.3s linear;
+	         -o-transition: all 0.3s linear;
+	            transition: all 0.3s linear;}
+
+#linkedin {
+	position: relative; 
+	margin: auto;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	padding-top: 6px;
+	height: 30px;
+	opacity: 0.7;
+}
+
+#linkedin:hover { opacity: 0.9; 
+		-webkit-transition: all 0.3s linear;
+	       -moz-transition: all 0.3s linear;
+	        -ms-transition: all 0.3s linear;
+	         -o-transition: all 0.3s linear;
+	            transition: all 0.3s linear; }
+
+@media (min-width: 1044px) {
+
+	.darken {
+		display: block;
+		max-width: 200px;
+		background-color: black;
+		padding: 0; 
+		position: relative; 
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+		white-space: nowrap;
+	}
+
+	div.darken .composite{
+	    display: block;
+	    -webkit-transition: all 0.5s linear;
+	       -moz-transition: all 0.5s linear;
+	        -ms-transition: all 0.5s linear;
+	         -o-transition: all 0.5s linear;
+	            transition: all 0.5s linear;
+
+	}
+
+	div.darken:hover .composite {
+	    opacity: 0.4;           
+	}
+
+	div.darken .brotherInfo {
+		display: none; 
+		position: absolute; 
+		font-size: 0.9em; 
+		margin: auto;
+		width: 100%;
+		height: 145px;
+		top: 0px;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		color: #000;
+	}
+
+	div.darken .addMinor {
+		height: 175px;
+	}
+
+	div.darken:hover .brotherInfo {
+		color: #fff;
+	    display: block; 
+	    -webkit-transition: all 0.5s linear;
+	       -moz-transition: all 0.5s linear;
+	        -ms-transition: all 0.5s linear;
+	         -o-transition: all 0.5s linear;
+	            transition: all 0.5s linear;
+	}
+}
+
+
+td { text-align: center; vertical-align: baseline;}
+th { text-align: left;}
+img { max-width: 100%; }

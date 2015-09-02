@@ -1,0 +1,146 @@
+html{
+	width:100%;
+	min-width: 1020px;
+	height:1000px;
+	background-image:none;
+	background-color:rgb(244,244,244);
+
+}
+body{
+	width:100%;
+	min-width: 1020px;
+	height:1000px;
+	background-image:none;
+	background-color:rgb(244,244,244);
+
+}
+#wrapper{	background-color:transparent;
+	background-attachment: fixed;
+
+
+}	
+#applicationphoto{
+	height:555px;
+	width:100%;
+
+	background:url("../images/corporatebg.png") 50% 0%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+	position:fixed;
+	background-attachment: fixed;
+	z-index:5;
+
+}
+@media only screen and (max-width: 1280px) {
+    #applicationphoto {-webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;}
+}
+
+
+#applicationtext{
+	margin-top:250px;
+	position:fixed;
+	top:0; left:0; right:0; bottom:0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	color:black;
+	letter-spacing: 4px;
+	width:100%;
+	height:50px;
+	font-size: 28pt;
+	text-align: center;
+	-webkit-font-smoothing: antialiased; 
+}
+
+#looking{
+	width:1020px;
+	height:888px;
+	background-image: none;
+	background-color:rgb(253,253,252);
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	padding:0px;
+	top:555px; left:0; right:0; bottom:0;
+	background-attachment: fixed;
+	z-index: 6;
+}
+#akpsi{
+	position:relative;
+	top:0px;
+	margin-top:0px;
+}
+#darkhr{
+	background-color:rgb(181,181,181);
+}
+#premier{
+	margin-bottom:16px;
+}
+#membership{
+	width:75%;
+	color:rgb(0,0,0);
+	font-family: 'Quicksand', sans-serif;
+	font-size:10.5pt;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:20px;
+
+}
+#lookingtext{
+	width:595px;
+	height:40px;
+	position:absolute;
+	margin:auto;
+	top:0;bottom:0;right:0;left:0;
+}
+#clickhere{
+	width:275px;
+	height:75px;
+	background-color:rgb(201,199,199);
+	color:rgb(255,255,255);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:20pt;
+	display:block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-top:0px;
+	top:60px;
+	letter-spacing: 4px;
+	text-decoration: none;
+}
+#clicktext{
+	width:155px;
+	height:36px;
+	position:absolute;
+	color:rgb(255,255,255);
+	margin:auto;
+	top:0;bottom:0;right:0;left:0;
+
+}
+#remember{
+	width:100%;
+	height:75px;
+	color:rgb(91,91,90);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:13pt;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:130px;
+	letter-spacing: 2px;
+	text-align:center;
+}
+#foot{
+	position:absolute;
+	top:1443px;
+}

@@ -1,0 +1,340 @@
+html{
+	height: 1000px;
+	width: 100%;
+	min-width: 1000px;
+	background-color: #fff;
+}
+
+body{
+	height: 1000px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#akpsi{
+	height: 190px;
+	margin-top: 0px;
+	margin-bottom: 32px;
+	padding-bottom: 0;
+	background-color: rgb(238,239,241);
+}	
+
+.triangle{  top: 2px; }
+
+/* BEGIN INTRO */ 
+
+#redirect{
+	position: relative;
+	margin-top: 0px; 
+	background:url('../images/rush/background.png') no-repeat 50% 0;
+	-webkit-background-size: cover;
+   	   -moz-background-size: cover;
+         -o-background-size: cover;
+	background-size: cover;
+	height: 72%;
+}
+
+#tagline{
+	position: relative;
+	font-size: 60px; 
+	font-weight: bold;
+	letter-spacing: 8px;
+	color: #fff;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 250px;
+}
+
+#jumpLinks {
+	table-layout: auto; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 70%;
+}
+
+.button_rush{
+	border: solid white 1px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 10px;
+	font-size: 25px;
+	font-family: 'Raleway', Arial, sans-serif;
+	color: white; 
+	text-decoration: none;
+	text-align: center;
+}
+
+.button_rush:hover{
+	cursor:pointer;	
+	background-color: #fff; 
+	opacity: 0.8;
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-ms-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+	-webkit-filter: brightness(1.1);
+	color: black;
+	border-color: black;
+}
+
+/* BEGIN CALENDAR */ 
+
+#calendar { 
+	position: relative; 
+	background-color: #fff; 
+	text-align: center;
+}
+
+#section_title{
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 40px; 
+	margin-bottom: 0px;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 70px;
+	font-weight: 100;
+	color: #272727;
+}
+
+table {
+	margin-top: 0px;
+	margin-left: auto; 
+	margin-right: auto;
+	border-collapse: collapse;
+	width: 85%;
+	padding: 0px;
+}
+
+.rush_event { padding: 0px; }
+.divider { width: 4%; padding: 0px; }
+
+.event_title{
+	position: relative;
+	font-size: 28px;
+	text-align: center;
+	color: #676767;
+}
+
+.event_info{
+	position: relative;
+	font-size: 15px;
+	text-align: center;
+	color: #676767;
+}
+
+/* BEGIN ABOUT */ 
+
+/* 
+#squareDiv {
+	width: 100%;
+	text-align: center;
+	border: 1px solid blue; 
+}
+
+#square{ 
+	position: absolute;
+	margin-right: 0px;
+	margin-left: 0px;
+} 
+*/ 
+
+#about { 
+	position: relative; 
+	text-align: center; 
+	background:url('../images/rush/about_bg.gif') no-repeat 50% 0;
+	-webkit-background-size: cover;
+   	   -moz-background-size: cover;
+         -o-background-size: cover;
+	background-size: cover;
+
+}
+	
+#marketing_message {
+	font-family: 'Raleway', 'News Gothic MT', Arial, sans-serif;
+	font-size: 18px;
+	color: #000;
+	text-align: left;
+	padding: 0px 130px 0px 130px;
+}	
+
+#marketing_title {
+	font-weight: bold; 
+	font-size: 20px; 
+	text-align: right;
+	padding-bottom: 30px;
+	padding-right: 130px;
+}
+/* BEGIN TESTIMONIALS */ 
+
+#testimonials { 
+	position: relative; 
+	background-color: #fff; 
+	text-align: center;
+}
+
+.testimonial_box {
+	height: 440px;
+	background-color: #fff;
+}
+
+#test { 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#profile {
+	position: relative; 
+	width: 250px;
+	margin-left: 120px;
+	padding-top: 50px;
+	float: left;
+}
+/*
+#testimonialName {
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 20px;
+	color: #676767;
+	font-weight: bold; 
+	float: right;
+	padding-right: 130px;
+}
+*/ 
+
+#speechBubbles {
+	width: 60%;
+	position: relative;
+	/*top: 70px;
+	left: 350px;
+	padding-left: 40px;*/ 
+}
+
+/* BEGIN CAREERS */ 
+
+#careers {
+	position: relative; 
+	background-color: #324868; 
+	color: white; 
+}
+
+#offers_table{
+	text-align: center;
+	padding-top: 25px;
+	width: 60%;
+}
+
+tr.space > td {
+	padding-bottom: 40px;
+}
+/* BEGIN SPONSORS */ 
+
+#sponsors{
+	position: relative;
+	background:url('../images/rush/background_sponsors.png') no-repeat 50% 0;
+	-webkit-background-size: cover;
+   	   -moz-background-size: cover;
+         -o-background-size: cover;
+	background-size: cover;
+}
+
+.sponsors_div{
+	background:url('../images/rush/background_sponsors.png') no-repeat 50% 0;
+	-webkit-background-size: cover;
+   	   -moz-background-size: cover;
+         -o-background-size: cover;
+	background-size: cover;
+	height: 450px;
+}
+
+#sponsor_table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+#sponsor_table2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#sponsor_image { width: 250px; }
+
+#company_logo { 
+	position: relative;
+	margin-left: auto; 
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 500px;
+}
+
+.company_blurb{
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	font-size: 18px;
+	width: 550px;
+}
+
+/* BEGIN FOOTER */ 
+
+#foot{
+	width:100%;
+	height: 60px;
+	text-align: center;
+	background-image: none !important;
+	background-color:rgb(238,239,241);	
+}
+
+#foot ul{
+	display:inline-table;
+	list-style:none;
+}
+#foot ul li{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:10.5pt;
+	border: none;
+	padding-top:0;
+	padding-bottom: 0;
+	padding-right:25px;
+	padding-left:25px;
+	color:rgb(171,172,172);
+	text-transform: uppercase;
+	display:inline;
+	height:50px;
+	border-right: 1px solid rgb(171,172,172);
+	letter-spacing: 1px;
+}
+
+#foot ul li:last-child {
+	border-right: none; 
+
+}
+
+#foot a{
+	text-decoration: none;
+	color:rgb(171,172,172);
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-ms-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+}
+
+#foot li:hover a{
+	color: rgb(101,101,101);
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-ms-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+}

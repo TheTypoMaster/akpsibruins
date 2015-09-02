@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+
+
+	<head>
+		<link rel="stylesheet" href="../styles/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../styles/aboutusstyle.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="../scripts/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="../scripts/navbar.js"></script>
+		<script type="text/javascript" src="../scripts/aypopout.js"></script>
+		<script src="../scripts/jquery.quickflip.min.js" type="text/javascript"></script>
+	
+<script type="text/javascript">
+$(function() {
+    
+    // for performance first init the quickFlip
+    $('.quickFlip').quickFlip();
+    
+    // set up a hover effect for each of the quickflip wrappers
+    for ( var i = 0; i < $.quickFlip.wrappers.length; i++ ) {
+        var thisOne = $.quickFlip.wrappers[i];
+
+        $( thisOne.wrapper ).hover( function(ev) {
+            var $target = $(ev.target);
+            // make sure it isn't a child node
+            if ( !$target.hasClass('quickFlip') ) $target = $target.parent();
+            
+            $target.quickFlipper();
+
+        }, function() {});
+    }
+    
+/*
+    Although the code here is faster, it could be made a lot simpler, since $.quickFlipper() will attach the quickFlip if it doesn't exist.  Replace the above with:
+
+    $('.quickFlip').hover(function(ev) {
+        var $target = $(ev.target);
+        if ( !$target.hasClass('quickFlip') ) $target = $target.parent();
+        
+        $target.quickFlipper();
+    }, function() {});
+
+*/
+
+});
+</script>
+
+	<body>
+		<div id="navbar">
+			<div id="logoonly"><a href="../index.html"><img id="logoonly" src="../images/logoonly.png" height="25px"/></a></div>
+				<div id="logo"><a href="../index.html"><img id="akplogo" src="../images/akplogo.png" height="25px"/></a></div>
+			<ul id="aboutul">
+					<li id="aboutdrop" style="cursor:default;"> About</li>
+				</ul><ul id="rushul">	
+					<li id="rushdrop" style="cursor:default;">Rush</li>
+
+				</ul><ul id="mediaul">
+					<li id="mediadrop" style="cursor:default;">Media</li>
+	
+				</ul><ul id="alumniul">
+					<li id="alumnidrop" style="cursor:default;">Alumni</li>
+	
+				</ul><ul id="partnershipsul">
+					<li id="partershipsdrop" style="cursor:default;">Partnerships</li>	
+	
+				</ul><ul id="contactul">
+					<a href="#" id="contactdrop">Contact</a>
+
+				</ul>
+		</div>
+		<div id="aboutmenu" class="submenu" >
+			<ul class="drop">
+						<li><a href="../about/aboutus.html">About Us</a></li>
+						<li><a href="../about/leadership.html">Leadership</a></li>
+						<li><a href="#">The Brothers</a></li>
+						<li><a href="#">Careers</a></li>
+
+			</ul>
+		</div>
+
+		<div id="rushmenu" class="submenu">
+			<ul class="drop">
+						<li><a href="#" >About</a></li>
+						<li><a href="#">Sponsors</a></li>
+						<li><a href="../rush/application.html">Application</a></li>
+
+			</ul>
+		</div>
+		<div id="mediamenu" class="submenu">
+			<ul class="drop">
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">Photos</a></li>
+			</ul>
+		</div>
+		<div id="alumnimenu" class="submenu">
+			<ul class="drop">
+						<li><a href="#">Employers</a></li>
+						<li><a href="#">Testimonials</a></li>
+			</ul>
+		</div>
+
+		<div id="partnershipsmenu" class="submenu">
+			<ul class="drop">
+						<li><a href="../partnerships/ayconsulting.html">AY Consulting</a></li>
+						<li><a href="#">Corporate Partnerships</a></li>
+			</ul>
+		</div>
+
+		<div id="brooklynbridge">
+			<p id="oldestandlargest">The world's oldest <br /> and largest professional <br /> business fraternity.</p>
+		</div>
+
+		<div id="values">
+			<div id="valuescontainer">
+				<div id="alittlehistory">
+
+					<div id="historytextcontainer">
+						<div id="alittlehistorycontainer">
+							<img src="../images/alittlehistory.png" />
+							<p id="historytext">
+								Established in 1904, Alpha Kappa Psi is the world's oldest and largest professional business fraternity. The Founding Fathers, known as the "Brooklyn Four", founded Alpha Kappa Psi to unite individuals possessing a unique drive for success. <br /> <br />
+								<span id="darker">
+								Every night, the Founding Fathers walked home from school over the Brooklyn Bridge and discussed the need for an organization--one that not only educated students, but also fostered leaders. Thus, Alpha Kappa Psi was formed and has been used as a stepping stone by thousands of individuals to advance their college and professional careers. <br /> <br />
+
+								With a network of more than 250,000 members spanning the globe, Alpha Kappa Psi unites brothers from all fields and backgrounds. Our alumni have held positions that range from United States Presidency to Fortune 500 CEOs, and have enabled us to provide our brothers with the guidance and skills necessary to further their individual welfare on both a personal and professional level.
+							</span>
+							</p>
+						</div>
+
+					</div>
+			</div>
+			<div id="boxescontainer">
+					<div class="boxesleft">
+						
+						<div class="boxes" id="corevalues"> 
+							<div class="corevalues core">Our <br /> Core <br /> Values <br /></div>
+						</div>
+						<div class=" quickFlip boxes rotate " id="knowledge">
+							<div class="panel1 corevalues thevalues">Knowledge</div>
+							<div class="panel2 corevalues thevalues">Education and experience is emphasized and shared.
+							</div>
+						</div>
+						<div class="boxes rotate quickFlip" id="service">
+							<div class="corevalues thevalues">Service</div>
+							<div class="panel2 corevalues thevalues">Sharing of time, talent and treasure with society and with our fraternity is a priority.
+</div>
+
+					</div>
+					</div>
+					<div class="boxesright">
+						<div class="boxes rotate quickFlip" id="brotherhood">
+							<div class="corevalues thevalues">Brotherhood</div>
+							<div class="panel2 corevalues thevalues">Trust, respect, cooperation, companionship and aid to brothers is the expected norm.</div>
+
+						</div>
+						<div class="boxes rotate quickFlip" id="integrity">
+							<div class="corevalues thevalues">Integrity</div>
+							<div class="panel2 corevalues thevalues">All actions, whether in business or in life, are guided by honesty, ethics and fairness.
+</div>
+
+						</div>
+						<div class="boxes rotate quickFlip" id="unity">
+							<div class="corevalues thevalues">Unity</div>
+							<div class="panel2 corevalues thevalues">A common understanding of our vision and values that transcend chapter, generation and profession is utilized to anticipate and create the future.</div>
+
+						</div>
+					</div>
+			</div>
+		</div>
+		</div>
+
+		<div id="royce">
+			<div class="sonar-container"><div class="sonar-graphic"></div><a href="#" onclick="return false;">Expand Item</a></div>
+			<div id="popout">
+				<div id="aytext">
+					<span id="uclaayheader">UCLA <br /> Alpha Upsilon Chapter <br /></span>
+			<br />The original Alpha Upsilon Chapter at the University of California Los Angeles was originally established in 1926. However, after nearly half a century of success, Alpha Kappa Psi at UCLA was disbanded due to the Vietnam War in the 1970's. <br /> <br />
+
+			During the Winter Quarter in 1999, a group of ambitious students took it upon themselves to re-establish the Alpha Upsilon Chapter. Assisted by the Alpha 	Zeta Chapter at the University of Southern California, the first 25 members of the reborn Alpha Upsilon chapter were pinned by Ms. Tammy Lu, a representative from the National organization. From there, a new legacy was written.
+				</div>
+			</div>
+			<div id="ayroyce"> <img id="ay" src="../images/ay.png" /> </div>
+		</div>
+
+		<div id="foot">
+			<hr class="thin" />
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Rush </a></li>
+				<li><a href="#">Media</li>
+				<li id="blue"><a href="#"><img id="bluelogo" src="../images/bluelogo.png" /></a></li>
+				<li><a href="#">Alumni</a></li>
+				<li><a href="#">Partnerships</a></li>
+				<li ><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</body>
+
+</html>

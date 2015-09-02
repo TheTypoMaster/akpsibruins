@@ -1,0 +1,137 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	background-image: none;
+	height:auto;
+	min-width: 920px;
+	background-color: rgb(201,201,202);
+
+}
+
+
+#navbar ul a:hover {
+	padding-bottom:13px;
+}
+.triangle{
+	top:2px;
+}
+
+#mainbanner{
+	position:relative;
+	top:45px;
+	width:100%;
+	height:400px;
+	background: url("../images/alumbanner.jpg") no-repeat 50% 0%;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+p{
+	margin:0;
+}
+#familyforever{
+	color:white;
+	font-family: 'Raleway', Arial, sans-serif;
+	padding-top:25px;
+	margin-left:18%;
+}
+#familyforevertop{
+	font-size: 52pt
+}
+#familyforeverbottom{
+	font-size: 18pt;
+	margin-left:150px;
+}
+#description{
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 13pt;
+	color:black;
+	text-align: center;
+	position:relative;
+	top:45px;
+	padding:20px;
+	width:60%;
+	margin:0 auto;
+}
+#yearscontainer{
+	position:relative;
+	top:45px;
+	margin:0 auto;
+	width:310px;
+
+}
+#years{
+	width:300px;
+	padding:0;
+}
+#years li{
+	display:inline;
+	margin-right:25px;
+	margin-left:0;
+	padding:3px 10px;
+	background-color:rgb(233,233,235);
+	cursor:pointer;
+
+}
+#years li:last-child{
+	margin-right:0px;
+}
+
+#years li:hover{
+	background-color:rgb(67,88,128);
+	color:white;
+    -webkit-transition: all 0.2s ease;
+  	-moz-transition: all 0.2s ease;
+  	-o-transition: all 0.2s ease;
+  	-ms-transition: all 0.2s ease;
+  	transition: all 0.2s ease;
+}
+
+.yeartables{
+	position:relative;
+	top:45px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}
+table{
+	border-collapse:collapse;
+	display:none;
+}
+th{
+	font-family: 'Raleway', Arial, sans-serif;
+	font-weight: 100;
+	padding:5px 14px;
+	text-align: left;
+	background-color:rgb(67,88,128);
+	color:white;
+}
+td{
+	font-family: 'Raleway', Arial, sans-serif;
+	padding:5px 14px;
+	font-size: 11pt;
+
+}
+.active{
+	background-color:rgb(67,88,128) !important;
+	color:white;
+}
+.current{
+	display:table;
+}
+#footer{
+	height:100px;
+}
+@media only screen and (min-width: 1400px){
+	#mainbanner{
+		height:500px;
+	}
+	#familyforever{
+		padding-top:45px;
+		margin-left:25%;
+	}
+}

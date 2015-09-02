@@ -1,0 +1,113 @@
+/*
+Theme Name: Minimalistic
+Theme URI: http://garridodiaz.com
+Version: 0.3
+Description: Minimalistic theme, no images, flexible width, two columns, widget ready and search box, fast load theme, XHTML & CSS valid. Based on design from minimalistic-design.net
+Author: Chema Garrido
+Tags: yellow,white,blue,light,two-columns,flexible-width
+License: GPL v3
+Minimalistic theme by Chema Garrido http://www.garridodiaz.com
+
+*/
+
+html,body{margin:0;padding:0}
+body{font: 85%/1.3 TrebuchetMS,Arial,sans-serif;
+    text-align: left;background: #fff;padding-bottom:0px}
+a { color: #0066B3; background: inherit; text-decoration: none;}
+h1 { font: bold 2.1em Arial, Arial, Sans-Serif; color: #036DA7 }
+h2 { font: bold 1.1em Arial, Arial, Sans-Serif; padding: 0; margin: 0; }
+
+div#header{width:100%;overflow:hidden;background: #BBD9EE; }
+div#header h1,div#menu{width:100%;margin:0 auto;text-align:left;}
+div#header #header_ad{margin-left:15px;margin-bottom:3px;font-weight: bold;}
+div#header h1{padding: 5px 10px 5px;color: #fff}
+
+div#footer{width:100%;clear: both;background: #BBD9EE; font: bold 0.8em Arial, Arial, Sans-Serif; color: #fff ;text-align:center }
+
+ul#nav,ul#nav li{list-style-type:none;margin:0;padding:0}
+ul#nav{font: bold 1.2em Arial, Arial, Sans-Serif;padding: 0 10px 0;}
+ul#nav li{float:left;margin-left: 3px;text-align: center}
+ul#nav a{float:left;width: 95px;padding: 5px 0;background: #E7F1F8;text-decoration:none;color: #666; border-top : 1px solid #fff; border-left : 1px solid #fff; border-right : 1px solid #fff;}
+ul#nav a:hover{background: #fff;color: #000}
+
+ul#nav li.current_page_item a,li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003}
+
+
+#left {
+	float: left;
+	width: 76%;
+	padding: 1em;
+	margin-bottom: 1.2em;
+	background: #eee;
+	text-align: justify;
+}
+
+#right {
+	float: right;
+	width: 20%;
+	margin: 0 0 10px 0;
+	
+}
+
+#right .box {
+	
+	padding: 1em;
+	margin: 0 0 1em 0;
+	background : #FFF6BF;
+}
+
+ul {  padding: 0; margin: 0;}
+li { list-style-type: none;}
+
+/*WP CSS*/
+
+#content {
+font: 95%/1.3 TrebuchetMS,Arial,sans-serif;
+	margin: 0 auto;
+    padding: 15px;
+	background: #fff;
+	
+	
+}
+
+.meta,.feedback{margin-top: 15px}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+

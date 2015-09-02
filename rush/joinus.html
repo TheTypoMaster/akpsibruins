@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Join Us</title>
+		<script type="text/javascript" src="../scripts/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="../scripts/navbar.js"></script>
+		<link rel="stylesheet" href="../styles/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../styles/rush_beta.css" type="text/css" media="screen" />
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet'type='text/css'>
+<script src="smooth-scroll.js"></script>
+
+<!-- FLEXSLIDER CODE -->
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    //$('.flexslider').flexslider();
+	$('.flexslider').flexslider({
+    start: function(slider) {
+    $('#reasonProfessionalism').click(function(event){
+        event.preventDefault();
+        slider.flexAnimate(slider.getTarget("next"));
+    });
+	$('#reasonBrotherhood').click(function(event){
+        event.preventDefault();
+        slider.flexAnimate(slider.getTarget("prev"));
+    });
+}
+});
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44252156-1', 'akpsibruins.com');
+  ga('send', 'pageview');
+
+</script>
+	</head>
+
+<!-- BEGIN NAVBAR --> 
+
+<body>
+	<div id="navbar">
+		<div id="logoonly"><a href="../index.html"><img id="logoonly" src="../images/logoonly.png" height="23px"/></a></div>
+			
+		<div id="logo"><a href="../index.html"><img id="akplogo" src="../images/akplogo.png" height="23px"/></a></div>
+
+			<ul id="aboutul">
+				<li id="aboutdrop" style="cursor:default;"> About</li>
+				<div class="triangle" id="abouttriangle"></div>
+			</ul>
+
+			<ul id="rushul">	
+				<li id="rushdrop" style="cursor:default;">Rush</li>
+				<div class="triangle" id="rushtriangle"></div>
+			</ul>
+
+			<ul id="mediaul">
+				<li id="mediadrop" style="cursor:default;">Brotherhood</li>
+				<div class="triangle" id="mediatriangle"></div>
+	
+				<!--</ul><ul id="alumniul">
+					<li id="alumnidrop" style="cursor:default;">Alumni</li>
+					<div class="triangle" id="alumnitriangle"></div>-->
+			</ul>
+
+			<ul id="partnershipsul">
+				<li id="partershipsdrop" style="cursor:default;">Partnerships</li><div class="triangle" id="partnershipstriangle"></div>
+			</ul>
+
+			<ul id="contactul">
+				<a href="../contact/contact.html" id="contactdrop">Contact</a>
+			</ul>
+		</div>
+		
+		<div id="aboutmenu" class="submenu" >
+			<ul class="drop">
+						<li><a href="../about/aboutus.html">About Us</a></li>
+						<li><a href="../about/leadership.html">Leadership</a></li>
+						<li><a href="../about/brothers.html">The Brothers</a></li>
+
+			</ul>
+		</div>
+
+		<div id="rushmenu" class="submenu">
+			<ul class="drop">
+						<li><a href="joinus.html" >Join Us</a></li>
+						<li><a href="https://www.facebook.com/events/799321460116675/">RSVP</a></li>
+						<!-- <li><a href="rush/sponsors.html">Sponsors</a></li> -->
+						<li><a href="application.html">Application</a></li>
+			</ul>
+		</div>
+		
+                <div id="mediamenu" class="submenu">
+                        <ul class="drop">
+                                                <li><a href="../brotherhood/media.html">Media</a></li>
+                                                <li><a href="../brotherhood/alumni.html">Alumni</a></li>
+                        </ul>
+                </div>
+		
+		<!-- <div id="alumnimenu" class="submenu">
+			<ul class="drop">
+						<li><a href="#">Employers</a></li>
+						<li><a href="#">Testimonials</a></li>
+			</ul>
+		</div> -->
+
+		<div id="partnershipsmenu" class="submenu">
+			<ul class="drop">
+						<li><a href="../partnerships/ayconsulting.html">AY Consulting</a></li>
+						<li><a href="../partnerships/corporate.html">Corporate Partnerships</a></li>
+			</ul>
+		</div>
+
+<!--- BEGIN CONTENT/INTRO --> 
+
+	<!-- <div id="redirect">
+			<table id="jumpLinks">
+				<tr>
+					<td><a data-scroll href="#calendar"><div class="button_rush">calendar</div></a></td>
+					<td><a data-scroll href="#about"><div class="button_rush">about</div></a></td>
+					<td><a data-scroll href="#testimonials"><div class="button_rush">testimonials</div></a></td>
+					<td><a data-scroll href="#careers"><div class="button_rush">careers</div></a></td>
+					<td><a data-scroll href="#sponsors"><div class="button_rush">sponsors</div></a></td>
+				</tr>
+			</table>
+	</div> -->
+
+		<div id="redirect">
+			<div id="jumpLinks">
+			<a data-scroll href="#calendar"><div class="button_rush">calendar</div></a>
+			<a data-scroll href="#about"><div class="button_rush">about</div></a>
+			<a data-scroll href="#testimonials"><div class="button_rush">testimonials</div></a>
+			<a data-scroll href="#careers"><div class="button_rush">careers</div></a>
+			<a data-scroll href="#sponsors"><div class="button_rush">sponsors</div></a></div>
+		</div>
+<!-- BEGIN CALENDAR --> 
+	 
+	<div id="calendar">
+		<p id="section_title"> CALENDAR </p>
+		<table>
+		<tr>
+			<td class="rush_event"><br>
+				<p class="event_title">Info Night</p>
+				<p class="event_info">Come listen to actives and alumni share their experience with Alpha Kappa Psi. <br><br> Casual attire.</p><br>
+				<img class="event_date" src="../images/rush/spring_2015/MAR31.jpg"><br><br>
+				<p class="event_details">7:00 - 9:00PM <br> UCLA TENNIS CENTER CLUBHOUSE </p>
+			</td>
+			<td class="divider"> <img src="../images/rush/separator.png"> </td>
+			<td class="rush_event">
+				<br>
+				<p class="event_title">Social Night</p>
+				<p class="event_info">Enjoy a night of food, music, and games with the actives in a relaxed environment. <br><br> Casual attire.</p><br>
+				<img class="event_date" src="../images/rush/spring_2015/APR1.jpg"><br><br>
+				<p class="event_details">5:00 - 7:00PM <br> SUNSET CANYON UPPER PICNIC AREA </p>
+			</td>
+			<td class="divider" ><img src="../images/rush/separator.png"> </td>
+			<td class="rush_event">
+				<p class="event_title">Professional Night</p>
+				<p class="event_info">See how we can help you build the necessary skills for today's competitive world. <br><br> Business casual attire.</p><br>
+				<img class="event_date" src="../images/rush/spring_2015/APR2.jpg"><br><br>
+				<p class="event_details">7:00 - 9:00PM <br> KERCKHOFF GRAND SALON </p>
+			</td>
+			<td class="divider"> <img src="../images/rush/separator.png"> </td>
+			<td class="rush_event">
+				<p class="event_title">Interview Day</p>
+				<p class="event_info"><br>Sign up at any of our events.<br><br>Business professional attire.</p><br><br>
+				<img class="event_date" src="../images/rush/spring_2015/APR3.jpg"><br><br>
+				<p class="event_details">BY APPOINTMENT<br> CAREER CENTER </p>
+			</td>
+		</tr>
+		</table>
+		<br>
+	</div> 
+
+	<!-- <div id="squareDiv"><img id="square" src="../images/rush/square.png"></div> -->
+
+<!-- BEGIN ABOUT --> 
+	 
+	<div id="about">
+		<img id="rushseal" src="../images/rush/spring_2015/rushseal.png">
+		<div id="marketing_message"><p>Dear Rushee,<br><br>
+		Take the time and think of where you will be in five years time. You may find it difficult to imagine--and rightly so. Your time here at UCLA and how you make use of it can take you down an infinite number of courses. At times the course you travel may appear uneasy and out of your control. Alpha Kappa Psi helps its members brave the storm, steer clear of the fog, and adjust their sail to a secure future.
+		<br><br>
+		<span id="marketing_title"> Victor Wu <br> Director of Marketing | Spring 2015 </span><br>
+		</p>
+		</div>
+	</div> 
+
+<!-- BEGIN TESTIMONIALS --> 
+
+	<div id="testimonials">
+		<p id="section_title" style="padding-bottom: 40px;"> TESTIMONIALS </p>
+		<div class="flexslider">
+		<div>
+			<ul class="slides">
+			<!-- BEGIN FIRST SLIDE --> 
+			<li>
+			<div class="testimonial_box" id="tst1">
+				<img id="mark" src="../images/rush/quotation.png">
+				<p id="testimonial_text"><br>Coming into UCLA as a third-year transfer student, I wanted to surround myself with like-minded students that could motivate and mentor me. The brothers of Alpha Kappa Psi exceeded my expectations with their expansive training, number of opportunities, and wide network. When I applied for my first accounting internship, I was competing against over two hundred applicants but an Alpha Kappa Psi alumni within the company reached out to me and prepped me for the interview. If it wasn't for his help I would not have gotten the job. I know that the network I have gained through Alpha Kappa Psi is something that will stay with me post-graduation, and I am excited to transition from college into the work field with all the friends I have made through this organization.</p><br>
+				<div id="test_picture">
+					<img src="../images/rush/testimonial_lubina.png"> 
+				</div>
+				<div id="testimonial_name">
+					<p><br>LUBINA KIM<br>ZETA PI PLEDGE CLASS</p>
+				</div>
+			</div>
+			</li>
+
+			<!-- BEGIN SECOND SLIDE --> 
+			<li>
+				<div class="testimonial_box" id="tst1">
+				<img id="mark" src="../images/rush/quotation.png">
+				<p id="testimonial_text" style="font-size:15px;">I came into AKPsi looking for professional opportunities. I felt like everyone knew where they were going and I was definitely lost in my career goals. I got exactly what I wanted from AKPsi. They showed me every aspect and industry of business I needed to learn. I was able to go through what I didn't want, and finally find something I was sure and passionate about. Not only did this extensive network guide me to where I wanted to be, they got me there too. I am currently working at my alumnus's company.<br><br>Something I didn't expect from them, however, means so much more to me now. College is about the people you meet, and the experiences you have. I met amazing people and shared with them some of my greatest memories. You don't really realize it, but when you call these 50+ people your brothers, they really are your brothers. These are the people who will study with you, help you prep for an interview, go to the gym with you, walk to class with you, who will just bet here for you when you need it. Having someone there for you that you can rely on is amazing. Having 50+ is harder to believe. I never expected to have all my roommates be from AKPsi and my best friends be from it either. I didn't expect it, but I wouldn't have had it any other way.</p><br>
+				<div id="test_picture">
+					<img src="../images/rush/testimonial_andy.png"> 
+				</div>
+				<div id="testimonial_name">
+					<p><br>ANDY NGUYEN<br>ZETA NU PLEDGE CLASS</p>
+				</div>
+			</div>
+			</li>
+
+			<!-- BEGIN THIRD SLIDE --> 
+			<li>
+			<div class="testimonial_box" id="tst1">
+				<img id="mark" src="../images/rush/quotation.png">
+				<p id="testimonial_text"><br><br>"The way you add value to your life is to devote ourselves to doing something that gives you purpose and meaning." AKPsi has certainly played a major role in my college experiences. The life-long friendships, valuable advice, mentors and brothers I have gained and met will remain a crucial part of my life. I'm proud to say that AKPsi is one of my greatest achievements at UCLA.</p><br>
+				<div id="test_picture">
+					<img src="../images/rush/testimonial_bailu.png"> 
+				</div>
+				<div id="testimonial_name">
+					<p><br>BAILU ZHAN<br>ZETA MU PLEDGE CLASS</p>
+				</div>
+			</div>
+			</li>
+
+			<!-- BEGIN FOURTH SLIDE --> 
+			<li>
+			<div class="testimonial_box" id="tst1">
+				<img id="mark" src="../images/rush/quotation.png">
+				<p id="testimonial_text">Coming into college, everyone told me that I would find my closest friends here. However, after my first two quarters at UCLA, I still felt lost and alone in such a large school. I had no idea what I wanted to do and I did not have that close group of people whom I could call my best friends - until I decided to rush Alpha Kappa Psi. <br><br>Now, after being in Alpha Kappa Psi for almost two years now, I have gained much more than a few new friends, but an actual family that I can count on for anything and everything, people that I can call my true brothers. My best memories and all of my achievements in college can be attributed to Alpha Kappa Psi and I can honestly say that I really would not be where I am in life without them.</p><br>
+				<div id="test_picture">
+					<img src="../images/rush/testimonial_camille.png"> 
+				</div>
+				<div id="testimonial_name">
+					<p><br>CAMILLE SU<br>ZETA OMICRON PLEDGE CLASS</p>
+				</div>
+			</div>
+			</li>
+
+			<!-- BEGIN FIFTH SLIDE --> 
+			<!-- <li>
+			<div class="testimonial_box" id="tst1">
+				<img id="mark" src="../images/rush/quotation.png">
+				<p id="testimonial_text"></p><br>
+				<div id="test_picture">
+					<img src="../images/rush/testimonial_derek.jpg"> 
+				</div>
+				<div id="testimonial_name">
+					<p><br>DEREK FOSTER<br>ZETA RHO PLEDGE CLASS</p>
+				</div>
+			</div>
+			</li> --> 
+
+			<!-- BEGIN SIXTH SLIDE --> 
+			<li>
+			<div class="testimonial_box" id="tst1">
+				<img id="mark" src="../images/rush/quotation.png">
+				<p id="testimonial_text">AKPsi has been an integral part of my college experience. The brothers in this chapter - my brothers - are my family here at UCLA. This chapter has been my home away from home for the past 3 years, and I've forged some of the most incredible memories with them. From learning how to unicycle, to shredding the slopes at Lake Tahoe and Big Bear, and to spontaneous trips to taco trucks at 2AM, AKPsi has given me everything I've wanted out of a group of friends at UCLA.<br><br>Not only has the fraternity given me the brotherhood that I was looking for in college, AKPsi has helped me tremendously in terms of professional development. We have mentors, both active brothers and alumni, in almost every industry I can think of. It was because of them that I landed my first technical internship and now, my full-time offer. I honestly could not be where I am today without this chapter. And I truly can't imagine what my college experience would have been like without AKPsi.</p><br>
+				<div id="test_picture">
+					<img src="../images/rush/testimonial_david.png"> 
+				</div>
+				<div id="testimonial_name">
+					<p><br>DAVID MAO<br>ZETA LAMBDA PLEDGE CLASS</p>
+				</div>
+			</div>
+			</li>
+
+
+			</ul>
+			</div>
+		</div>
+	</div>
+
+<!-- BEGIN CAREERS --> 
+	 
+	<div id="careers">
+		<p id="section_title" style="color:black;"> OUR 2015 OFFERS </p>
+		<br><br>
+		<table id="offers_table">
+			<tr class="space">
+				<td><span id="offername">KRISTINE ALLRED</span><br>PwC<br>Forensics Advisory</td>
+				<td><span id="offername">MAC CASEY</span><br>Deloitte<br>Advisory</td>
+				<td><span id="offername">JACKY CHAU</span><br>Deloitte<br>Technology Consulting</td>
+				<td><span id="offername">EVA CHEN</span><br>ZS Associates<br>Consulting</td>
+			</tr>
+			
+			<tr class="space">
+				<td><span id="offername">ROSALINE CHEN</span><br>PwC<br>Technology Consulting
+				<td><span id="offername">SANTO CHEN</span><br>Yahoo<br>Software Engineering</td>
+				<td><span id="offername">JUSTIN CHING</span><br>Merrill Lynch<br>Investment Banking</td>
+				<td><span id="offername">DEREK FOSTER</span><br>iD Tech Camp<br>Computer Science</td>
+			</tr>
+			
+			<tr class="space">
+				<td><span id="offername">KEVIN FU</span><br>Visa, Inc.<br>Project Management</td>
+				<td><span id="offername">KRISTEN FUKUTO</span><br>PwC<br>Assurance</td>
+				<td><span id="offername">JESSICA HO</span><br>Target<br>Human Resources</td>
+				<td><span id="offername">WILLY HUANG</span><br>Deloitte<br>Technology Consulting</td>
+			</tr>
+	
+			<tr class="space">
+				<td><span id="offername">KRISTIN JANG</span><br>JPMorgan Chase<br>Commercial Banking</td>
+				<td><span id="offername">LUBINA KIM</span><br>PwC<br>Forensics Advisory</td>
+				<td><span id="offername">STEFFIE KO</span><br>Huron Consulting Group<br>Healthcare Consulting</td>
+				<td><span id="offername">DEREK LEE</span><br>PwC<br>Risk Assurance</td>
+			</tr>
+				
+			<tr class="space"> 
+				<td><span id="offername">JILLENE MA</span><br>NBC Universal<br>IT/Data Support</td>
+				<td><span id="offername">JAMEY ROLAND</span><br>LinkedIn<br>Software Development</td>
+				<td><span id="offername">TEDDY SHIH</span><br>Deloitte<br>Advisory</td>
+				<td><span id="offername">CAMILLE SU</span><br>Huron Consulting Group<br>Healthcare Consulting</td>
+			</tr>
+
+			<tr class="space">
+				<td><span id="offername">JUSTIN SUN</span><br>Deloitte<br>Advisory</td>
+				<td><span id="offername">JOANNA TANG</span><br>Deloitte<br>Technology Consulting</td>
+				<td><span id="offername">PEARL TOBAY</span><br>PwC<br>Risk Assurance</td>
+				<td><span id="offername">YURIKA YONEDA</span><br>PwC<br>Advisory</td>
+			</tr>
+			<tr>
+				<td><span id="offername">ELIZABETH ZHAN</span><br>Goldman Sachs<br>Investment Banking</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+	</div> 
+
+
+<!-- BEGIN SPONSORS -->
+
+	<div id="sponsors">
+		<p id="section_title" style="padding-bottom: 0px;"> SPONSORS </p>
+		<div class="flexslider">
+		<div>
+			<ul class="slides">
+
+			<!-- BEGIN FIRST SLIDE --> 
+			<li>
+				<div class="sponsors_div" style="padding-top:15px;"><table id="sponsor_table">
+				<tr>
+					<td><a href="http://www.chillyribbons.com"></a><img id="company_logo" style="width: 150px;" src="../images/rush/sponsors/sponsor_band.png"></a></td>
+					<td><a href="http://www.myenzospizza.com"></a><img id="company_logo" style="width:150px;" src="../images/rush/sponsors/sponsor_cbc.jpg"></a></td>
+					<td><a href="http://www.myenzospizza.com.com"></a><img id="company_logo" style="width:275px;" src="../images/rush/sponsors/sponsor_enzos.png"></a></td>
+				</tr>
+				<tr>
+					<td><a href="http://www.drinkjustchill"></a><img id="company_logo" src="../images/rush/sponsors/sponsor_justchill.png"></a></td>
+					<td><img id="company_logo" style="width:175px;" src="../images/rush/sponsors/sponsor_koala.jpg"></td>
+					<td><img id="company_logo" style="width:200px;" src="../images/rush/sponsors/sponsor_princeton.jpg"></td>
+				</tr>
+				</table>
+				</div>
+			</li>
+
+			<!-- BEGIN SECOND SLIDE --> 
+			<li>
+				<div class="sponsors_div" style="padding-top:15px;">
+					<img style="width:150px; margin-left: auto; margin-right: auto; padding-bottom: 25px; padding-top: 40px;"src="../images/rush/sponsors/sponsor_band.png">
+					<p class="company_blurb">BAND is a real life communication app for groups. BAND moves beyond chat and messaging functionality to keep your group in the loop with a full suite of free tools. It allows for traditional posting and chat, as well as group polling, community calendars, file sharing and photo albums. Perfect for family, club, classmates, community, hobbyists, support groups, colleagues, team, organization, and non-profit.</p>
+				</div>
+			</li>
+
+			<!-- BEGIN THIRD SLIDE --> 
+			<li>
+				<div class="sponsors_div" style="padding-top:15px;">
+					<img style="width:150px; margin-left: auto; margin-right: auto; padding-bottom: 25px; padding-top: 40px;" src="../images/rush/sponsors/sponsor_cbc.jpg">
+					<p class="company_blurb"><br>Corner Bakery Cafe serves breakfast, lunch, dinner and everything in between.  Join us for made-to-order egg scramblers, handcrafted sandwiches, toasty panini, fresh salads, hot soups, and bakery fresh desserts.  And our catering is perfect for any occasion.  Whatever the occasion, make it perfectly delicious with Corner Bakery Cafe.</p>
+				</div>
+			</li>
+
+			<!-- BEGIN FOURTH SLIDE --> 
+			<li>
+				<div class="sponsors_div" style="padding-top:15px;">
+					<img style="width:300px; margin-left: auto; margin-right: auto; padding-top: 40px; padding-bottom: 25px;" src="../images/rush/sponsors/sponsor_enzos.png">
+					<p class="company_blurb"><br>You tried the rest, now try the best!<br>Drop by Enzo's in Westwood for some delicious, authentic New York pizza. Dine in, take out and delivery.</p>
+				</div>
+			</li>
+		
+			<!-- BEGIN FIFTH SLIDE --> 
+			<li>
+				<div class="sponsors_div" style="padding-top:15px;">
+					<img style="width:400px; margin-left: auto; margin-right: auto; padding-bottom: 25px; padding-top: 80px;" src="../images/rush/sponsors/sponsor_justchill.png">
+					<p class="company_blurb"><br>JUST CHILL is an award winning, relaxation beverage designed to take the edge off without making you tired.</p>
+				</div>
+			</li>
+
+			<!-- BEGIN SIXTH SLIDE --> 
+			<li>
+				<div class="sponsors_div">
+					<img style="width:200px; margin-left: auto; margin-right: auto; padding-bottom: 25px; padding-top: 40px;" src="../images/rush/sponsors/sponsor_koala.jpg">
+					<p class="company_blurb">Here at Koala T, we believe that certain things in life like good company, good music, and good drinks are meant to be enjoyed.  That's why we created this place, to carve a place for people to come hangout, enjoy great drinks, and just relax.<br><br>So when you're in the neighborhood, please come in and make yourself at home! </p>
+				</div>
+			</li>
+
+		<!-- BEGIN SEVENTH SLIDE --> 
+			<li>
+				<div class="sponsors_div">
+					<img style="width:200px; margin-left: auto; margin-right: auto; padding-bottom: 25px; padding-top: 40px;" src="../images/rush/sponsors/sponsor_princeton.jpg">
+					<p class="company_blurb"></p>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+</div>
+</div>
+
+<!-- BEGIN FOOTER --> 
+	<script> smoothScroll.init();</script>
+	<div id="foot">
+		<hr class="thin" />
+		<ul>
+			<li><a href="../about/aboutus.html">About</a></li>
+			<li><a href="joinus.html">Rush </a></li>
+			<li id="blue"><a href="index.html"><img id="bluelogo" src="../images/bluelogo.png" /></a></li>
+			<!--<li><a href="#">Alumni</a></li>-->
+				<li><a href="../brotherhood/alumni.html">Alumni</li>
+			<!--<li><a href="">Partnerships</a></li>-->
+			<li ><a href="../contact/contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+</body>
+</html>

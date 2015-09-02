@@ -1,0 +1,178 @@
+html{width:100%;
+	min-width: 1200px;
+	 height:2000px;}
+body{width:100%;
+	 height:2000px;}
+
+#ayconsultingpanel{
+	position:relative;
+	top:49px;
+	height:350px;
+	width:100%;
+	background: url('../images/ayconsultingpanelbg.jpg') no-repeat;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:inline-block;
+  	text-align:center;
+
+}
+
+#logointro{
+	top:500px;
+	width:695px;
+	height:200px;
+	padding-top:20px;
+	margin-top:70px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 55pt;
+	padding-left:0;
+	padding-right:0;
+	padding-bottom:0;
+	letter-spacing: 4px;
+}
+#consultinglogo{
+	max-height: 80px;
+	margin:0;
+	padding:0;
+	margin-top:5px;
+}
+#smaller{
+	margin:0;
+	padding:0;
+	color:rgb(10,21,100);
+	font-size: 25pt;
+}
+#blue{color:rgb(101,124,188);}
+#yellow{color:rgb(253,183,42);}
+#blueyellow{
+	padding-top:20px;
+	line-height: 40px;
+	margin:0;
+}
+
+
+#consultingdescription{
+	font-size:12pt;
+	letter-spacing: 1px;
+	text-decoration: italic;
+}
+
+#whoweare{
+	width:100%;
+	height:524px;
+}
+#whoweareinner{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	height:400px;
+	top:20%;
+}
+#innerconsultinglogo{
+	float:left;
+	margin-top:35px;
+	margin-right:50px;
+	margin-bottom:30px;
+}
+.headertext{
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:30pt;
+line-height: 5px;
+letter-spacing: 2px;
+}
+
+.innertext{
+font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+letter-spacing: 1px;
+font-size: 14pt;
+color:rgb(157,157,157);
+}
+#ourmission{
+	width:100%;
+	height:542px;
+	background: url('../images/ourmissionbg.jpg') no-repeat;
+	background-attachment: fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.transparentdiv{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:15%;
+	width:1053px;
+	height:367px;
+	background-color:rgba(249,249,250,.7);
+}
+.transparentdivtext{
+	width:680px;
+	height:172px;
+	position:relative;
+	margin-right:auto;
+	margin-left:auto;
+	top:20%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	color:rgb(88,88,88);
+	font-size: 17pt;
+	letter-spacing: 1px;
+
+}
+.transparentdivtextheader{
+	font-size: 35pt;
+	letter-spacing: 2px;
+	color:rgb(41,41,41);
+}
+#ourgoal{
+	width:100%;
+	height:519px;
+}
+#ourgoalinner{
+	width:950px;
+	height:400px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:10%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+#ourgoalpng{
+	position:relative;
+	top:0;
+	float:right; 
+	margin-left:0px;
+
+}
+#ouroperations{
+	width:100%;
+	height:590px;
+	background: url('../images/ouroperationsbg.jpg') no-repeat;
+	background-attachment: fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#operationstransparent{
+	top:20%;
+
+}
+#contact{
+	width:100%;
+	height:525px;
+}
+#contacttext{
+	width:165px;
+	height:100px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}

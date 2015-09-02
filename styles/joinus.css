@@ -1,0 +1,184 @@
+html{
+	height:1000px;
+	min-width: 45em;
+}
+body{
+	height:1000px;
+	font-family: 'Raleway', sans-serif;
+	min-width:1054;
+}
+#akpsi{
+	height:190px;
+	margin-top:0px;
+	margin-bottom:32px;
+	padding-bottom:0;
+	background-color:rgb(238,239,241);
+}	
+.titlediv{
+		background-image:url('../images/background.jpg');
+
+}
+.triangle{top:2px;}
+.title{	
+	width:100%;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-align:center;
+	font-size:25pt;
+	}
+.inner{
+		position:absolute;
+		top:70px;
+		overflow:scroll;
+}
+
+#photointro{
+	top:0px;
+	position:relative;
+	width:100%;
+	height:580px;
+	background: url("../images/joinusbg1.png") no-repeat 50% 0%;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#photoprofessionalism{
+	position:relative;
+	top:0px;
+	width:100%;
+	height:580px;
+	background: url("../images/joinusbg2.png") no-repeat 50% 0%;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#photobrotherhood{
+	position:relative;
+	top:0px;
+	width:100%;
+	height:580px;
+	background: url("../images/joinusbg3.png") no-repeat 50% 0%;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.reason{
+	border: solid white 1px;
+	width: 40%;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px;
+}
+
+.reason:hover{
+	cursor:pointer;	
+}
+
+.midSection{
+	position:relative;
+	top:0px;
+	width:100%;
+	height:700px;
+}
+
+.midSection .title{
+	height: 20%;
+	border-bottom: solid black 1px;
+	font-size: 50px;
+}
+
+.midSection .description{
+	height: 80%;
+	text-align:center;
+}
+
+#midSectionImage{
+	width: 100px;
+	height: auto;
+	margin: auto;
+	text-align:center;
+}
+
+#smallTableText{
+	font-size:15px;
+	text-align:left;
+	line-height:1;
+	text-align:center;
+}
+
+#largeTableText{
+	font-size:20px;
+}
+
+#smallImage{
+	width:100px;
+	height: auto;
+	margin: auto;	
+}
+
+#rushForm
+{
+	width: 80%;
+	text-align:center;	
+	color:white;
+	font-size:24px;
+}
+
+#rushForm table tr td
+{
+	padding-left:10%;
+	text-align:left;
+}
+
+#rushForm table
+{
+	border-spacing:0;	
+}
+#rushForm table tr td
+{
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:16px;
+}
+
+#rushForm table tr td:nth-child(2)
+{
+	font-size: 16px;	
+}
+
+#rushForm #rushcalendarbackground{
+	position:relative;
+	top:0px;
+	width:100%;
+	background: url("../images/rushcalendar background.png") no-repeat 50% 0%;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#fbrsvp {
+	width: 75px; 
+	height: 17px;
+	font-family: 'Lucida Grande', Arial, sans-serif;
+	background-color: rgb(61, 91, 153);
+	color: white; 
+	margin: 0px auto; 
+	position: relative; 
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+a:-webkit-any-link { text-decoration: none; }

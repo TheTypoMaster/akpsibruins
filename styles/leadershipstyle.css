@@ -1,0 +1,116 @@
+html{
+	height:1000px;
+}
+body{
+	height:1000px;
+}
+#akpsi{
+	height:190px;
+	margin-top:0px;
+	margin-bottom:32px;
+	padding-bottom:0;
+	background-color:rgb(238,239,241);
+}	
+.titlediv{
+		background-image:url('../images/background.jpg');
+
+}
+.title{	
+	width:100%;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-family: "News Gothic MT", Arial, sans-serif;
+	text-align:center;
+	font-size:25pt;
+	}
+.boardmembers{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing: 20px;
+	margin-top:20px;
+	font-family: "News Gothic MT", Arial, sans-serif;
+	font-size:10pt;
+	width: 80%;
+	border-spacing: 20px;
+	border-collapse:separate;
+
+}
+#eboard, #brothers{
+	padding-bottom:15px;
+	background-color:rgb(238,239,241);}
+
+#jboard{background-color:rgb(238,239,241);
+}
+
+#pledgeclass{
+	margin-left: 0px;
+}
+.names{
+	color:rgb(13,13,13);
+	font-weight:bold;}
+.positions{
+	color:rgb(91,92,93);
+}
+
+.pledgeclass{
+	font-family: 'News Gothic MT', Arial, sans-serif; 
+	font-size: 10pt;
+	font-weight: bold;  
+}
+
+.brotherstable{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing: 20px;
+	margin-top:20px;
+	font-family: "News Gothic MT", Arial, sans-serif;
+	font-size: 0.8em;
+	width: 80%;
+	border-spacing: 20px;
+	border-collapse:separate;
+}
+
+.darken {
+	display: inline-block;
+	background: black;
+	padding: 0; 
+	position: relative; 
+	overflow: scroll;
+	
+}
+
+div.darken img {
+    display: block;
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+
+}
+
+div.darken:hover img {
+    opacity: 0.4;           
+}
+div.darken span {
+	display: none; 
+	position: absolute;
+	font-size: 0.9em; 
+	top: 20px;
+	color: #000;
+}
+div.darken:hover span{color:#fff;
+    display: block; 
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+
+td { text-align: center; vertical-align: baseline;}
+th { text-align: left;}
+img { max-width: 100%; }

@@ -1,0 +1,283 @@
+body{
+	position:absolute;
+	height:auto;}
+#brooklynbridge{
+	position:relative;
+	top:49px;
+	width:100%;
+	height:624px;
+	background-image:url("../images/brooklynbridge.jpg");
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+#oldestandlargest{
+	position:absolute;
+	top:187px;
+	left:76px;
+	margin-top:0px;
+	width:420px;
+	height:auto;
+	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 27pt;
+  color:rgb(255,255,255);
+}
+@media only screen and (max-width: 600px) {
+    #oldestandlargest {font-size:26px;
+    	width:300px;}
+}
+
+#values{
+	width:100%;
+	height:733px;
+	background-color:rgb(30,29,29);
+}
+
+#valuescontainer{
+	position:relative;
+	top:100px;
+	width:85%;
+	height:600px;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+#alittlehistorycontainer{
+position:relative;
+top:50px;
+width:100%;
+height:463px;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+}
+@media only screen and (min-width: 1380px){
+	#valuescontainer{
+		width:60%;
+
+	}
+}
+#alittlehistory{
+top:50px;
+width:500px;
+height:85px;
+
+}
+#historytextcontainer{
+	width:500px;
+	height:570px;
+}
+#historytext{
+	height:423px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:rgb(221,221,221);
+	text-align:left;
+	letter-spacing: 1px;
+	font-size: 13pt;
+}
+#boxescontainer{
+	width:295px;
+	height:500px;
+	float:right;
+}
+.boxesleft{
+	float:left;
+}
+.boxesright{
+	float:right;
+}
+.boxes{
+	position:relative;
+	height:140px;
+	width:140px;
+	margin-bottom:12px;
+	display:block;
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+	position: relative;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display:table;
+
+}
+
+.corevalues{
+	display:table-cell;
+	vertical-align: middle;
+		background-color:rgb(0,0,0);
+
+
+}
+.thecontent{
+	display:table-cell;
+	vertical-align: middle;
+}
+.core{
+	color:rgb(155,155,155);
+	font-size: 14pt;
+}
+.thevalues{
+
+	color:rgb(104,104,101);
+	font-size: 12pt;
+		background-color:rgb(0,0,0);
+
+}
+.quickFlip{
+	height:140px;
+	width:140px;
+}
+.panel1{
+z-index: 1000;
+}
+
+.panel2{
+	display:none;
+	text-transform: none;
+	font-size: 11pt;
+}
+
+@media only screen and (max-width: 950px){
+	.boxes{display:none;}
+
+}
+
+@media only screen and (max-width: 550px){
+		#historytext{
+		font-size: 11pt;
+	}
+	#historytextcontainer{
+		width:350px;
+	}
+}
+
+#darker{
+	color:rgb(110,111,107);
+}
+
+#royce{
+	width:100%;
+	height:673px;
+	background-image: url("../images/royce.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#ayroyce{
+	width:460px;
+	height:280px;
+	position:relative;
+	top:55%;
+margin-left:auto;
+}
+
+#popout{
+	height:516px;
+	width:718px;
+	background-color:rgba(249,196,94,.8);
+	position:absolute;
+	left:108px;
+	top:1479px;
+	display:none;
+}
+
+#aytext{
+	height:409px;
+	width:590px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  	font-family: 'Arial Narrow', Arial, sans-serif;
+color:rgb(255,255,255);
+font-size:14.5pt;
+letter-spacing: 1px;
+
+}
+#uclaayheader{
+	font-size: 35pt;
+	letter-spacing: 5px;
+	line-height: 60px;
+}
+
+.sonar-container {
+	position: absolute;
+	left:50px;
+	top:1425px;
+	z-index: 900;
+}
+
+.sonar-graphic, .sonar-container a {
+	display: block;
+	/* Image Replacement */ font: 0/0 a; text-shadow: none; color: transparent;
+	position: absolute;
+}
+
+.sonar-graphic {
+	width: 115px;
+	height: 115px;
+	background: url(../images/animated-radar-off.png) no-repeat center center;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-name: sonar;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-duration: 1.5s;
+	-moz-animation-name: sonar;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+}
+.sonar-graphic:hover {
+	background: url(../images/animated-radar-on.png) no-repeat center center;
+}
+
+.sonar-container a {
+	width: 70px;
+	height: 70px;
+	top: 22px;
+	left: 22px;
+	background:url(../images/animated-radar-off-icon.png) 29px 29px no-repeat;
+}
+.sonar-container a:hover {
+	background:url(../images/animated-radar-on-icon.png) 29px 29px no-repeat;
+}
+@-webkit-keyframes sonar {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0, 0);
+	}
+	30% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(0.6, 0.6);
+	}
+}
+
+@-moz-keyframes sonar {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(0, 0);
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+		-moz-transform: scale(0.6, 0.6);
+	}
+}

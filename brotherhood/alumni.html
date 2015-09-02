@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alumni</title>
+		<meta name="Alpha Kappa Psi Alpha Upsilon UClA" content="UCLA's Premier Business Fraternity" />
+		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="../images/favicon.ico" type="image/x-icon" />
+
+		<script type="text/javascript" src="../scripts/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="../scripts/navbar.js"></script>
+
+		<link rel="stylesheet" href="../styles/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="../styles/alumni.css" type="text/css" media="screen" />
+
+		<noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>		
+
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44252156-1', 'akpsibruins.com');
+  ga('send', 'pageview');
+
+</script>
+
+<!--jQuery for year switch-->
+<script type="text/javascript"> 
+$(document).ready(function(){
+	$('#years li').click(function(){
+		$('.active').removeClass("active");
+		$(this).addClass("active");
+
+		$('.current').removeClass("current");
+		$('.specialprice').has('.priceis').addClass('strike');
+   		var myClass = $(this).attr("class").split(' ')[0];
+   		$('.'+ myClass).addClass('current');
+	});
+});
+//alternate table colors
+$(document).ready(function()
+{
+  $("tr:even").css("background-color", "rgb(229,229,228)");
+});
+</script>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<div id="navbar">
+			<div id="logoonly"><a href="../index.html"><img id="logoonly" src="../images/logoonly.png" height="23px"/></a></div>
+				<div id="logo"><a href="../index.html"><img id="akplogo" src="../images/akplogo.png" height="23px"/></a></div>
+				<ul id="aboutul">
+					<li id="aboutdrop" style="cursor:default;"> About</li>
+					<div class="triangle" id="abouttriangle"></div>
+
+				</ul><ul id="rushul">	
+					<li id="rushdrop" style="cursor:default;">Rush</li>
+					<div class="triangle" id="rushtriangle"></div>
+
+				</ul><ul id="mediaul">
+					<li id="mediadrop" style="cursor:default;">Brotherhood</li>
+					<div class="triangle" id="mediatriangle"></div>
+	
+				<!--</ul><ul id="alumniul">
+					<li id="alumnidrop" style="cursor:default;">Alumni</li>
+					<div class="triangle" id="alumnitriangle"></div>-->
+	
+				</ul><ul id="partnershipsul">
+					<li id="partershipsdrop" style="cursor:default;">Partnerships</li>	
+					<div class="triangle" id="partnershipstriangle"></div>
+	
+				</ul><ul id="contactul">
+					<a href="contact/contact.html" id="contactdrop">Contact</a>
+
+				</ul>
+		</div>
+		<div id="aboutmenu" class="submenu" >
+			<ul class="drop">
+						<li><a href="../about/aboutus.html">About Us</a></li>
+						<li><a href="../about/leadership.html">Leadership</a></li>
+						<li><a href="../about/brothers.html">The Brothers</a></li>
+						<!--<li><a href="about/careers.html">Careers</a></li>-->
+
+			</ul>
+		</div>
+
+		<div id="rushmenu" class="submenu">
+			<ul class="drop">
+						<li><a href="../rush/joinus.html" >Join Us</a></li>
+						<li><a href="https://www.facebook.com/events/799321460116675/">RSVP</a></li>
+						<!-- <li><a href="rush/sponsors.html">Sponsors</a></li> -->
+						<li><a href="../rush/application.html">Application</a></li>
+			</ul>
+		</div>
+                <div id="mediamenu" class="submenu">
+                        <ul class="drop">
+                                                <li><a href="media.html">Media</a></li>
+                                                <li><a href="alumni.html">Alumni</a></li>
+                        </ul>
+                </div>
+		<!--<div id="alumnimenu" class="submenu">
+			<ul class="drop">
+						<li><a href="#">Employers</a></li>
+						<li><a href="#">Testimonials</a></li>
+			</ul>-->
+		</div>
+
+		<div id="partnershipsmenu" class="submenu">
+			<ul class="drop">
+						<li><a href="../partnerships/ayconsulting.html">AY Consulting</a></li>
+						<li><a href="../partnerships/corporate.html">Corporate Partnerships</a></li>
+			</ul>
+		</div>
+
+<div id="mainbanner">
+	<div id="familyforever">
+		<p id="familyforevertop">
+			ALUMNI
+		</p>
+		<p id="familyforeverbottom">
+			family - forever.
+		</p>
+	</div>
+</div>
+
+<div id="description">
+	<p>
+		The brothers you grow with, the memories you create, and the experiences you share don't end when college does. Alpha Kappa Psi alumni are all over the world - and they are with you every step of the way.
+	</p>
+</div>
+<div id="yearscontainer">
+<ul id="years">
+	<li class="first active">
+		2014
+	</li>
+	<li class="second">
+		2013
+	</li>
+	<li class="third">
+		2012
+	</li>
+	<li class="fourth">
+		Prior
+	</li>
+</ul>
+</div>
+<table class="yeartables first current">
+<tr>
+	<th>Name</th>
+	<th>Class</th>
+	<th>Company</th>
+	<th>Department</th>
+</tr>
+<tr>
+	<td>Chris Ahn</td>
+	<td>Zeta Nu</td>
+	<td>Arup</td>
+	<td>Engineering</td>
+</tr>
+<tr>
+	<td>Rosaline Chen</td>
+	<td>Zeta Mu</td>
+	<td>PwC</td>
+	<td>Technology Consulting</td>
+</tr>
+<tr>
+	<td>Heidi Cheon</td>
+	<td>Zeta Xi</td>
+	<td>Uniqlo</td>
+	<td>Management</td>
+</tr>
+<tr>
+	<td>Beau Hoover</td>
+	<td>Zeta Lambda</td>
+	<td>Intuit</td>
+	<td>Data Analytics</td>
+</tr>
+<tr>
+	<td>Steffie Ko</td>
+	<td>Zeta Mu</td>
+	<td>JP Morgan Chase</td>
+	<td>Asset Management</td>
+</tr>
+<tr>
+	<td>David Mao</td>
+	<td>Zeta Lambda</td>
+	<td>Amazon</td>
+	<td>Software Development</td>
+</tr>
+<tr>
+	<td>Jamey Roland</td>
+	<td>Zeta Mu</td>
+	<td>Amazon</td>
+	<td>Software Development</td>
+</tr>
+<tr>
+	<td>Tiffany Marsing</td>
+	<td>Zeta Xi</td>
+	<td>Toma Capital Management, LLC</td>
+	<td>Private Equity</td>
+</tr>
+<tr>
+	<td>Samantha Shaw</td>
+	<td>Zeta Xi</td>
+	<td>ZEFR </td>
+	<td>Research Analysis</td>
+</tr>
+<tr>
+	<td>Raelene Tang</td>
+	<td>Zeta Nu</td>
+	<td>Nomura Singapore</td>
+	<td>Investment Banking</td>
+</tr>
+<tr>
+	<td>Kenneth Teh</td>
+	<td>Zeta Nu</td>
+	<td>Macquarie Capital</td>
+	<td>Investment Banking</td>
+</tr>
+<tr>
+	<td>Pearl Tobay</td>
+	<td>Zeta Mu</td>
+	<td>PwC</td>
+	<td>Risk Assurance</td>
+</tr>
+<tr>
+	<td>Sydnie Tom</td>
+	<td>Zeta Mu</td>
+	<td>Target</td>
+	<td>Human Resources</td>
+</tr>
+<tr>
+	<td>Angela Wu</td>
+	<td>Zeta Nu</td>
+	<td>Toma Capital Management, LLC</td>
+	<td>Private Equity</td>
+</tr>
+<tr>
+	<td>Yurika Yoneda</td>
+	<td>Zeta Mu</td>
+	<td>PwC | Morgan Stanley</td>
+	<td>Advisory | Finance</td>
+</tr>
+<tr>
+	<td>Bailu Zhan</td>
+	<td>Zeta Mu</td>
+	<td>Goldman Sachs</td>
+	<td>Investment Banking</td>
+</tr>
+<tr>
+	<td>Jessica Yen</td>
+	<td>Zeta Kappa</td>
+	<td>Deloitte Consulting</td>
+	<td>Technology Consulting</td>
+</tr>
+<tr>
+	<td>Yi Yan</td>
+	<td>Zeta Lambda</td>
+	<td>PwC</td>
+	<td>Advisory</td>
+</tr>
+</table>
+<table class="yeartables second">
+<tr>
+	<th>Name</th>
+	<th>Class</th>
+	<th>Company</th>
+	<th>Department</th>
+</tr>
+<tr>
+	<td>Wilfred Chang</td>
+	<td>Zeta Iota</td>
+	<td>Hitachi</td>
+	<td>Consulting</td>
+</tr>
+<tr>
+	<td>Trevor De Berrito</td>
+	<td>Zeta Iota</td>
+	<td>SingerLewak</td>
+	<td>Assurance/Advisory</td>
+</tr>
+<tr>
+	<td>Andrew Esqueda</td>
+	<td>Zeta Lambda</td>
+	<td>Morgan Stanley</td>
+	<td>Wealth Management</td>
+</tr>
+<tr>
+	<td>David Ji</td>
+	<td>Zeta Lambda</td>
+	<td>Morgan Stanley</td>
+	<td>Investment Banking</td>
+</tr>
+<tr>
+	<td>Lance Jung</td>
+	<td>Zeta Iota</td>
+	<td>Grant Thornton</td>
+	<td>Advisory</td>
+</tr>
+<tr>
+	<td>Florence Lau</td>
+	<td>Zeta Lambda</td>
+	<td>Bank of America</td>
+	<td>Finance</td>
+</tr>
+<tr>
+	<td>Tiffany Lau</td>
+	<td>Zeta Iota</td>
+	<td>JP Morgan</td>
+	<td>Investment Banking</td>
+</tr>
+<tr>
+	<td>Jennifer Lee</td>
+	<td>Zeta Kappa</td>
+	<td>Deloitte</td>
+	<td>Advisory</td>
+</tr>
+
+<tr>
+	<td>Celia Ma</td>
+	<td>Zeta Iota</td>
+	<td>Deloitte</td>
+	<td>Advisory</td>
+</tr>
+<tr>
+	<td>Emily Nguyen</td>
+	<td>Zeta Iota</td>
+	<td>Bank of America Merrill Lynch</td>
+	<td>Investment Banking</td>
+</tr>
+<tr>
+	<td>Kristina Nguyen</td>
+	<td>Zeta Mu</td>
+	<td>RPA</td>
+	<td>Marketing</td>
+</tr>
+<tr>
+	<td>Jeremy Nguyen</td>
+	<td>Zeta Mu</td>
+	<td>AEG</td>
+	<td>Finance</td>
+</tr>
+<tr>
+	<td>Cosmo Sung</td>
+	<td>Zeta Iota</td>
+	<td>Deloitte</td>
+	<td>Advisory</td>
+</tr>
+
+<tr>
+	<td>Stephen Tan</td>
+	<td>Zeta Kappa</td>
+	<td>NASA</td>
+	<td>Engineering</td>
+</tr>
+<tr>
+	<td>Emily Tseng</td>
+	<td>Zeta Iota</td>
+	<td>PwC</td>
+	<td>Assurance</td>
+</tr>
+<tr>
+	<td>Cindy Yan</td>
+	<td>Zeta Kappa</td>
+	<td>BDO</td>
+	<td>Audit</td>
+</tr>
+</table>
+<table class="yeartables third">
+<tr>
+	<th>Name</th>
+	<th>Class</th>
+	<th>Company</th>
+	<th>Department</th>
+</tr>
+<tr>
+	<td>Sae Hee Ahn</td>
+	<td>Zeta Iota</td>
+	<td>The Boeing Company</td>
+	<td>Business Analysis</td>
+</tr>
+<tr>
+	<td>Kai Boyd</td>
+	<td>Zeta Iota</td>
+	<td>Yahoo!</td>
+	<td>Product Marketing</td>
+</tr>
+<tr>
+	<td>Kenny Chang</td>
+	<td>Zeta Kappa</td>
+	<td>Hulu</td>
+	<td>Advertising</td>
+</tr>
+<tr>
+	<td>Melanie Gin</td>
+	<td>Zeta Eta</td>
+	<td>Deloitte Consulting</td>
+	<td>Management Consulting</td>
+</tr>
+<tr>
+	<td>Terry Huang</td>
+	<td>Zeta Eta</td>
+	<td>Google</td>	
+	<td>Software Development</td>
+</tr>
+<tr>
+	<td>Trinh Nguyen</td>
+	<td>Zeta Iota</td>
+	<td>Target</td>
+	<td>Human Resources</td>
+</tr>
+<tr>
+	<td>Doris Poon</td>
+	<td>Zeta Theta</td>
+	<td>PwC</td>
+	<td>Assurance</td>
+</tr>
+<tr>
+	<td>Kimberly Tran</td>
+	<td>Zeta Kappa</td>
+	<td>DirecTV</td>
+	<td>Marketing</td>
+</tr>
+<tr>
+	<td>Christina Wu</td>
+	<td>Zeta Iota</td>
+	<td>RPA</td>
+	<td>Marketing</td>
+</tr>
+<tr>
+	<td>Norite Vong</td>
+	<td>Zeta Iota</td>
+	<td>County of Alameda</td>
+	<td>Audit</td>
+</tr>
+<tr>
+	<td>Jimmy Xu</td>
+	<td>Zeta Iota</td>
+	<td>AirportParkingReservations.com</td>
+	<td>Product Management</td>
+</tr>
+<table class="yeartables fourth">
+<tr>
+	<th>Name</th>
+	<th>Class</th>
+	<th>Company</th>
+	<th>Industry</th>
+</tr>
+
+
+
+
+
+<tr>
+	<td>Michele Chang</td>
+	<td>Founding Class</td>
+	<td>McKinsey &amp Co</td>
+	<td>Management Consulting</td>
+</tr>
+<tr>
+	<td>Stanley Chiu</td>
+	<td>Founding Class</td>
+	<td>Tekserve</td>
+	<td>Technology</td>
+</tr>
+<tr>
+	<td>Christina Hsieh</td>
+	<td>Founding Class</td>
+	<td>Smith Barney</td>
+	<td>Financial Services</td>
+</tr>
+<tr>
+	<td>Gordon Kao</td>
+	<td>Founding Class</td>
+	<td>Lourd Capital Management, LLC</td>
+	<td>Financial Services</td>
+</tr>
+<tr>
+	<td>Brandon Hapa Perdue</td>
+	<td>Founding Class</td>
+	<td>KTLA | Heartbeat Project</td>
+	<td>Media and Entertainment | Entrepreneurship</td>
+</tr>
+<tr>
+	<td>Jen Wei</td>
+	<td>Founding Class</td>
+	<td>Illume</td>
+	<td>Public Relations</td>
+</tr>
+<tr>
+	<td>Joseph Wu</td>
+	<td>Founding Class</td>
+	<td>Green Project Inc.</td>
+	<td>Tech/Green Entrepreneurship</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+	<td>Angela Chen</td>
+	<td>Delta Omega</td>
+	<td>Northrup Grumman Corp.</td>
+	<td>Aerospace and Defense</td>
+</tr>
+<tr>
+	<td>Alfred Fung</td>
+	<td>Delta Omega</td>
+	<td>GO SUB 60, Inc</td>
+	<td>Communications</td>
+</tr>
+<tr>
+	<td>Rober Lum</td>
+	<td>Delta Omega</td>
+	<td>FastTrackFundraising, Inc </td>
+	<td>Entrepreneurship</td>
+</tr>
+<tr>
+	<td>Betsy Chen</td>
+	<td>Epsilon Alpha</td>
+	<td>Park Place Realty | 20th Century Fox Television</td>
+	<td>Real Estate | Entertainment</td>
+</tr>
+<tr>
+	<td>Robert W Jue</td>
+	<td>Epsilon Alpha</td>
+	<td>CB Richard Ellis Group, Inc</td>
+	<td>Financial Services</td>
+</tr>
+<tr>
+	<td>Frank Lee</td>
+	<td>Epsilon Alpha</td>
+	<td>Department of Homeland Security</td>
+	<td>Government</td>
+</tr>
+<tr>
+	<td>John Liu</td>
+	<td>Epsilon Alpha</td>
+	<td>Springel &amp Fink LLP</td>
+	<td>Legal</td>
+</tr>
+<tr>
+	<td>Shannon Mo</td>
+	<td>Epsilon Alpha</td>
+	<td>Yahoo</td>
+	<td>Legal</td>
+</tr>
+<tr>
+	<td>Monica Zi</td>
+	<td>Epsilon Alpha</td>
+	<td>Cooley, Godward, Kronish LLP</td>
+	<td>Legal</td>
+</tr>
+
+
+
+
+
+
+<tr>
+	<td>Alexandra Chau</td>
+	<td>Epsilon Iota</td>
+	<td>Team One Advising</td>
+	<td>Consulting</td>
+</tr>
+<tr>
+	<td>Jacqueline Chen</td>
+	<td>Epsilon Iota</td>
+	<td>True Religion</td>
+	<td>Fashion</td>
+</tr>
+<tr>
+	<td>Sebyul Chun</td>
+	<td>Epsilon Iota</td>
+	<td>White &amp Case LLP</td>
+	<td>Legal</td>
+</tr>
+<tr>
+	<td>Wayne Han</td>
+	<td>Epsilon Iota</td>
+	<td>State Street IMS</td>
+	<td>Technology</td>
+</tr>
+<tr>
+	<td>Christopher Kwan</td>
+	<td>Epsilon Iota</td>
+	<td>Thoma Bravo</td>
+	<td>Private Equity</td>
+</tr>
+<tr>
+	<td>Jenny Liu</td>
+	<td>Epsilon Iota</td>
+	<td>Ernst & Young</td>
+	<td>Assurance</td>
+</tr>
+<tr>
+	<td>Freda Luu</td>
+	<td>Epsilon Iota</td>
+	<td>KPMG</td>
+	<td>Assurance</td>
+</tr>
+<tr>
+	<td>Eric Sytwu</td>
+	<td>Epsilon Iota</td>
+	<td>The Boeing Company</td>
+	<td>Aerospace and Defense</td>
+</tr>
+<tr>
+	<td>Harold Y. Tan</td>
+	<td>Epsilon Iota</td>
+	<td>FastTrack Fundraising, Inc</td>
+	<td>Entrepreneurship</td>
+</tr>
+
+
+
+
+
+
+
+<tr>
+	<td>Steven L. Cadigan</td>
+	<td>Epsilon Kappa</td>
+	<td>Liberty Lending, Inc</td>
+	<td>Real Estate</td>
+</tr>
+<tr>
+	<td>Jay Won</td>
+	<td>Epsilon Kappa</td>
+	<td>COPE Health Solutions</td>
+	<td>Healthcare</td>
+</tr>
+
+
+
+
+
+
+<tr>
+	<td>Josephine Lam</td>
+	<td>Epsilon Lambda</td>
+	<td>Yamaha</td>
+	<td>HR Consulting</td>
+</tr>
+<tr>
+	<td>Connie Wu</td>
+	<td>Epsilon Lambda</td>
+	<td>Google</td>
+	<td>Technology</td>
+</tr>
+
+
+
+
+
+<tr>
+	<td>Brian Woon</td>
+	<td>Epsilon Mu</td>
+	<td>Polo Ralph Lauren</td>
+	<td>Luxury Retail</td>
+</tr>
+<tr>
+	<td>Ken Yeh</td>
+	<td>Epsilon Mu</td>
+	<td>Private Label by G</td>
+	<td>Marketing</td>
+</tr>
+
+
+
+<tr>
+	<td>Hilda Deng</td>
+	<td>Epsilon Nu</td>
+	<td>PwC</td>
+	<td>Tax</td>
+</tr>
+<tr>
+	<td>Kris Leger</td>
+	<td>Epsilon Nu</td>
+	<td>Kaiser Permanente</td>
+	<td>Healthcare - Finance Division</td>
+</tr>
+
+
+
+
+
+
+
+
+<tr>
+	<td>Mimi Bevell</td>
+	<td>Epsilon Xi</td>
+	<td>Deloitte</td>
+	<td>Financial Advisory</td>
+</tr>
+<tr>
+	<td>Kenny Chow</td>
+	<td>Epsilon Xi</td>
+	<td>Kurtzman Carson Consultants LLC</td>
+	<td>Consulting</td>
+</tr>
+<tr>
+	<td>Alfred Hsing</td>
+	<td>Epsilon Xi</td>
+	<td>Jet Li's Assistance</td>
+	<td>Entertainment</td>
+</tr>
+<tr>
+	<td>Kathy Lee</td>
+	<td>Epsilon Xi</td>
+	<td>Deloitte</td>
+	<td>Financial Advisory</td>
+</tr>
+<tr>
+	<td>Pearl Tin</td>
+	<td>Epsilon Xi</td>
+	<td>Aerotek</td>
+	<td>Human Resources - Recruiting</td>
+</tr>
+
+
+
+
+
+
+
+
+
+<tr>
+	<td>Molly Chen</td>
+	<td>Epsilon Omicron</td>
+	<td>Peace Corps</td>
+	<td>Non Profit</td>
+</tr>
+<tr>
+	<td>Timothy Tow</td>
+	<td>Epsilon Omicron</td>
+	<td>Mercer</td>
+	<td>Consulting</td>
+</tr>
+<tr>
+	<td>Mika Yokota</td>
+	<td>Epsilon Omicron</td>
+	<td>Miracle Marrow Matches</td>
+	<td>Medicine, Non-Profit</td>
+</tr>
+
+<tr>
+	<td>Joann S Lee</td>
+	<td>Epsilon Pi</td>
+	<td>Fisher Investments</td>
+	<td>Financial Services</td>
+</tr>
+<tr>
+	<td>Jonathan Hsiung</td>
+	<td>Epsilon Rho</td>
+	<td>KPMG</td>
+	<td>Management Consulting</td>
+</tr>
+
+<tr>
+	<td>Sunny Chung</td>
+	<td>Epsilon Sigma</td>
+	<td>The Dumont Project</td>
+	<td>Project Manager</td>
+</tr>
+<tr>
+	<td>Christopher Yu</td>
+	<td>Epsilon Sigma</td>
+	<td>Jeffries &amp Co</td>
+	<td>Investment Banking</td>
+</tr>
+
+
+<tr>
+	<td>Rohit Jonnalagadda</td>
+	<td>Epsilon Tau</td>
+	<td>Jeffries &amp Co</td>
+	<td>Investment Banking</td>
+</tr>
+<tr>
+	<td>Yu Jiang Tham</td>
+	<td>Epsilon Tau</td>
+	<td>Apple</td>
+	<td>Technology</td>
+</tr>
+</table>
+</table>
+<div id="footer"></div>
+</body>

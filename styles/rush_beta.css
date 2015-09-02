@@ -1,0 +1,293 @@
+html{
+	height: 1000px;
+	width: 100%;
+	min-width: 1000px;
+	background-color: #fff;
+}
+
+body{
+	height: 1000px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#akpsi{
+	height: 190px;
+	margin-top: 0px;
+	margin-bottom: 32px;
+	padding-bottom: 0;
+	background-color: rgb(238,239,241);
+}	
+
+.triangle{  top: 2px; }
+
+/* BEGIN INTRO */ 
+
+
+table {
+	margin-left: auto; 
+	margin-right: auto;
+	border-collapse: collapse;
+	padding: 0px;
+	width: 85%;
+}
+
+#redirect{
+	top: 45px;
+	position: relative;
+	background:url('../images/rush/spring_2015/mainbg.jpg') no-repeat 50% 0;
+	-webkit-background-size: cover;
+   	   -moz-background-size: cover;
+         -o-background-size: cover;
+	background-size: cover;
+	height: 72%;
+}
+
+#jumpLinks { 
+	position: relative;
+	text-align: center;
+	top: 425px; 
+	width: 67%; 
+	margin: 0 auto; 
+}
+
+.button_rush{
+	display: inline-block;
+	color: #fff;
+	border: solid white 1px;
+	margin-top: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 22px;
+}
+
+.button_rush:hover{
+	cursor:pointer;	
+	background-color: #fff; 
+	opacity: 0.8;
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-ms-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+	-webkit-filter: brightness(1.1);
+	color: black;
+	border-color: black;
+}
+
+/* BEGIN CALENDAR */ 
+
+#calendar { 
+	position: relative; 
+	background-color: #fff; 
+	text-align: center;
+}
+
+#section_title{
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 40px; 
+	margin-bottom: 0px;
+	font-family: 'Raleway', Arial, sans-serif;
+	font-size: 70px;
+	font-weight: 100;
+	color: #272727;
+}
+
+.rush_event { padding: 0px; }
+.divider { width: 4%; padding: 0px; }
+
+.event_title{
+	position: relative;
+	font-size: 28px;
+	text-align: center;
+	color: #676767;
+}
+
+.event_info{
+	position: relative;
+	font-size: 15px;
+	text-align: center;
+	color: #676767;
+}
+
+.event_date {height:70px;}
+
+/* BEGIN ABOUT */ 
+
+#about { 
+	position: relative; 
+	text-align: center; 
+	background:url('../images/rush/spring_2015/about_bg.jpg') no-repeat 50% 0;
+	-webkit-background-size: cover;
+   	   -moz-background-size: cover;
+         -o-background-size: cover;
+	background-size: cover;
+	height:650px;
+
+}
+	
+#rushseal {
+	position: relative; 
+	float: right;
+	padding: 50px;
+	width: 175px;
+}
+#marketing_message {
+	font-family: 'Raleway', 'News Gothic MT', Arial, sans-serif;
+	font-size: 17px;
+	color: white;
+	text-align: left;
+	padding: 0px 50px 0px 50px;
+	width:50%;
+	min-width:500px;
+	max-width: 600px;
+	height:400px;
+	position:relative;
+	top:360px;
+}	
+
+#marketing_title {
+	margin-top:10px;
+	float:right;
+	text-align: right;
+}
+/* BEGIN TESTIMONIALS */ 
+
+#testimonials { 
+	position: relative; 
+	background-color: #fff; 
+	text-align: right;
+}
+
+.testimonial_box {
+	position: relative;
+	margin: auto;
+	width: 85%;
+	height: 440px;
+	background-color: #fff;
+}
+
+#mark { position: relative; width: 60px;}
+#testimonial_text { font-size: 18px; font-weight: bold; line-height: 25px; }
+#test_picture { float: right; width: 175px; padding-left: 15px;}
+#testimonial_name {
+	font-size: 20px;
+	text-align: right; } 
+
+/* BEGIN CAREERS */ 
+
+#careers {
+	position: relative; 
+	background:url('../images/rush/spring_2015/offerstable.jpg') no-repeat 75% 75%;
+	-webkit-background-size: cover;
+   	   -moz-background-size: cover;
+         -o-background-size: cover;
+	background-size: cover;
+	color: black; 
+}
+
+#offername { font-size: 16px;}
+
+#offers_table{
+	text-align: center;
+	font-size: 15px;
+	width: 80%;
+}
+
+tr.space > td {
+	padding-bottom: 35px;
+}
+/* BEGIN SPONSORS */ 
+
+#sponsors{
+	position: relative;
+	background-color: #fff; 
+}
+
+.sponsors_div{
+	background-color: #fff;
+	height: 400px;
+}
+
+#sponsor_table{
+	width: 70%;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#company_logo { 
+	position: relative;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.company_blurb{
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	font-size: 18px;
+	width: 700px;
+}
+
+/* BEGIN FOOTER */ 
+
+#foot{
+	width:100%;
+	height: 60px;
+	text-align: center;
+	background-image: none !important;
+	background-color:rgb(238,239,241);	
+}
+
+#foot ul{
+	display:inline-table;
+	list-style:none;
+}
+#foot ul li{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:10.5pt;
+	border: none;
+	padding-top:0;
+	padding-bottom: 0;
+	padding-right:25px;
+	padding-left:25px;
+	color:rgb(171,172,172);
+	text-transform: uppercase;
+	display:inline;
+	height:50px;
+	border-right: 1px solid rgb(171,172,172);
+	letter-spacing: 1px;
+}
+
+#foot ul li:last-child {
+	border-right: none; 
+
+}
+
+#foot a{
+	text-decoration: none;
+	color:rgb(171,172,172);
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-ms-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+}
+
+#foot li:hover a{
+	color: rgb(101,101,101);
+	-webkit-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-ms-transition: all 0.3s ease;
+  	transition: all 0.3s ease;
+}
+
